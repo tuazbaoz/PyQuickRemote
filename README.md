@@ -67,7 +67,6 @@
                     output:<br>
                     ->Ngr*k Public URL      :xxxxxxxxxxxxxxxxxx<br>
                     ->C*deServer Password :xxxxxxxxxxxxxxxxxxxx<br><br>
-                    
                     self --timer<br>
                     output:<br>
                     Timer<br>
@@ -97,7 +96,6 @@
                         "RemoteEmail": "Your_Email_Which_Get_The_Message_From_Bot_Gmail@gmail.com",<br>
                         "NgrokLaunchPath": "/ngrokDirectory/ngrok",<br>
                         }</em>
-                    
                     </code>
                 </article>
                 <aside>
