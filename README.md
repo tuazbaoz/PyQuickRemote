@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Quick-Remote</title>
         <meta charset="utf-8">
     </head>
     <body>
@@ -22,7 +21,7 @@
         <main>
             <!-- intro part -->
             <section id="about">
-                <h3>About Quick Remote:</h3>
+                <h2>About Quick Remote:</h2>
                 <article>
                     <p>
                     Can launch the Program on Linux OS/ WSL only.<br>
@@ -35,7 +34,7 @@
             </section>
             <!-- usecase figure -->
             <section id="diagram">
-               <h3>Usecase Diagram:</h3>
+               <h2>Usecase Diagram:</h2>
                <figure>
                     <img src="https://github.com/tuazbao-heo/ImageHosting/blob/Master/QuickRemoteUseCase.jpg?raw=true" alt="quick remote usecase diagram" title="Quick remote usecase diagram" width="520" height="600">
                </figure>
@@ -43,7 +42,7 @@
             <!-- commands part -->
             <section id="commands">
                 <!-- command overview -->
-                <h3>Commands:</h3>
+                <h2>Commands:</h2>
                 <p>
                     [quick-remote]
                     |Usage: self [options] [sub-options]<br>
@@ -82,7 +81,7 @@
             </section>
             <!-- QuickRemote settings -->
             <section id="settings">
-                <h3>QuickRemote Settings:</h3>
+                <h2>QuickRemote Settings:</h2>
                 <!-- JSON settings -->
                 <article>
                     <p>
@@ -98,7 +97,7 @@
                 </article>
                 <aside>
                     <!-- precondition -->
-                    <h4>Precondition:</h4>
+                    <h3>Precondition:</h3>
                     <ol>
                         <li>installed ngrok</li>
                         <li>installed code-server</li>
