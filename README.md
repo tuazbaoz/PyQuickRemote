@@ -11,7 +11,7 @@
             <!-- navigations -->
             <nav>
                 <ul>
-                    <li><a href="#about" >About Quick Remote</a></li>
+                    <li><a href="#about-quick-remote" >About Quick Remote</a></li>
                     <li><a href="#diagram" >Usecase Diagram</a></li>
                     <li><a href="#commands" >Commands</a></li>
                     <li><a href="#settings">Settings</a></li>
