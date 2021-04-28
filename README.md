@@ -11,17 +11,17 @@
             <!-- navigations -->
             <nav>
                 <ul>
-                    <li><a href="#about" >About Quick Remote</a></li>
-                    <li><a href="#diagram" >Usecase Diagram</a></li>
+                    <li><a href="#about-quick-remote" >About Quick Remote</a></li>
+                    <li><a href="#usecase-diagram" >Usecase Diagram</a></li>
                     <li><a href="#commands" >Commands</a></li>
-                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#quickremote-settings">Settings</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <!-- intro part -->
             <section id="about">
-                <h2>About Quick Remote:</h2>
+                <h2>About Quick Remote</h2>
                 <article>
                     <p>
                     Can launch the Program on Linux OS/ WSL only.<br>
@@ -34,7 +34,7 @@
             </section>
             <!-- usecase figure -->
             <section id="diagram">
-               <h2>Usecase Diagram:</h2>
+               <h2>Usecase Diagram</h2>
                <figure>
                     <img src="https://github.com/tuazbao-heo/ImageHosting/blob/Master/QuickRemoteUseCase.jpg?raw=true" alt="quick remote usecase diagram" title="Quick remote usecase diagram" width="520" height="600">
                </figure>
@@ -42,7 +42,7 @@
             <!-- commands part -->
             <section id="commands">
                 <!-- command overview -->
-                <h2>Commands:</h2>
+                <h2>Commands</h2>
                 <p>
                     [quick-remote]
                     |Usage: self [options] [sub-options]<br>
@@ -81,11 +81,11 @@
             </section>
             <!-- QuickRemote settings -->
             <section id="settings">
-                <h2>QuickRemote Settings:</h2>
+                <h2>QuickRemote Settings</h2>
                 <!-- JSON settings -->
                 <article>
                     <p>
-                        Create a JSON file name <code>.settings.json</code> and complete your settings follows below term:<br>
+                        Create a JSON file name <code>.settings.json</code> and complete your settings follow below term:<br>
                         <em>{<br>
                         "BotGmail": "example@gmail.com",<br>
                         "BotGmailPassword": "example@123456",<br>
