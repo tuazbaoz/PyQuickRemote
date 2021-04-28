@@ -85,7 +85,7 @@
                 <!-- JSON settings -->
                 <article>
                     <p>
-                        Create a JSON file name <code>.settings.json</code> and complete your settings follows below term:<br>
+                        Create a JSON file name <code>.settings.json</code> and complete your settings follow below term:<br>
                         <em>{<br>
                         "BotGmail": "example@gmail.com",<br>
                         "BotGmailPassword": "example@123456",<br>
