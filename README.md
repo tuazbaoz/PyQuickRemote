@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Quick-Remote</title>
         <meta charset="utf-8">
     </head>
     <body>
@@ -22,7 +21,7 @@
         <main>
             <!-- intro part -->
             <section id="about">
-                <h3>About Quick Remote:</h3>
+                <h2>About Quick Remote:</h2>
                 <article>
                     <p>
                     Can launch the Program on Linux OS/ WSL only.<br>
@@ -35,7 +34,7 @@
             </section>
             <!-- usecase figure -->
             <section id="diagram">
-               <h3>Usecase Diagram:</h3>
+               <h2>Usecase Diagram:</h2>
                <figure>
                     <img src="https://github.com/tuazbao-heo/ImageHosting/blob/Master/QuickRemoteUseCase.jpg?raw=true" alt="quick remote usecase diagram" title="Quick remote usecase diagram" width="520" height="600">
                </figure>
@@ -43,8 +42,8 @@
             <!-- commands part -->
             <section id="commands">
                 <!-- command overview -->
-                <h3>Commands:</h3>
-                <code>
+                <h2>Commands:</h2>
+                <p>
                     [quick-remote]
                     |Usage: self [options] [sub-options]<br>
                         |--remote                Start QuickRemote.<br>
@@ -59,16 +58,15 @@
                         |    |-m '<message>'     Mail to RemoteMath with the message.<br>
                         |--clear                 Clear CLI screen.<br>
                         |--help                  Show commandS list.<br>
-                </code>
+                </p>
                 <!-- example of commonly commands -->
                 <p>Example:</p>
-                <code>
-                    self --remote<br>
+                <p>
+                    <code>self --remote</code><br>
                     output:<br>
                     ->Ngr*k Public URL      :xxxxxxxxxxxxxxxxxx<br>
                     ->C*deServer Password :xxxxxxxxxxxxxxxxxxxx<br><br>
-                    
-                    self --timer<br>
+                    <code>self --timer</code><br>
                     output:<br>
                     Timer<br>
                     ==========================<br>
@@ -79,17 +77,15 @@
                         Minute  : 3<br>
                         Second  : 45<br>
                     ==========================<br>
-                </code>
+                </p>
             </section>
             <!-- QuickRemote settings -->
-            <section>
-                <h3>QuickRemote Settings:</h3>
+            <section id="settings">
+                <h2>QuickRemote Settings:</h2>
                 <!-- JSON settings -->
                 <article>
                     <p>
                         Create a JSON file name <code>.settings.json</code> and complete your settings follows below term:<br>
-                    </p>
-                    <code>
                         <em>{<br>
                         "BotGmail": "example@gmail.com",<br>
                         "BotGmailPassword": "example@123456",<br>
@@ -97,12 +93,11 @@
                         "RemoteEmail": "Your_Email_Which_Get_The_Message_From_Bot_Gmail@gmail.com",<br>
                         "NgrokLaunchPath": "/ngrokDirectory/ngrok",<br>
                         }</em>
-                    
-                    </code>
+                    </p>
                 </article>
                 <aside>
                     <!-- precondition -->
-                    <h4>Precondition:</h4>
+                    <h3>Precondition:</h3>
                     <ol>
                         <li>installed ngrok</li>
                         <li>installed code-server</li>
