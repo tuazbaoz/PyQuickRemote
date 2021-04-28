@@ -15,10 +15,12 @@
                     <li><a href="#about" >About Quick Remote</a></li>
                     <li><a href="#diagram" >Usecase Diagram</a></li>
                     <li><a href="#commands" >Commands</a></li>
+                    <li><a href="#settings">Settings</a></li>
                 </ul>
             </nav>
         </header>
         <main>
+            <!-- intro part -->
             <section id="about">
                 <h3>About Quick Remote:</h3>
                 <article>
@@ -31,43 +33,88 @@
                     </p>
                 </article>
             </section>
+            <!-- usecase figure -->
             <section id="diagram">
                <h3>Usecase Diagram:</h3>
                <figure>
                     <img src="https://github.com/tuazbao-heo/ImageHosting/blob/Master/QuickRemoteUseCase.jpg?raw=true" alt="quick remote usecase diagram" title="Quick remote usecase diagram" width="520" height="600">
                </figure>
             </section>
+            <!-- commands part -->
             <section id="commands">
+                <!-- command overview -->
                 <h3>Commands:</h3>
+                <code>
+                    [quick-remote]
+                    |Usage: self [options] [sub-options]<br>
+                        |--remote                Start QuickRemote.<br>
+                        |--quit                  Turn off quick-remote.<br>
+                        |--timer                 Print current timer to CLI once.<br>
+                        |    |-refresh           Refresh timer to start status.<br>
+                        |    |-format '<format>' Change timer stdout format. tags: [@year, @month, @day, @hour, @minute, @second]<br>
+                        |    |                   Ex: 25-2-2000<br>
+                        |    |                       quick-remote --timer -format '@year/@month/@day'<br>
+                        |    |                     ->2000/2/25<br>
+                        |--mail                  Send mail remote to RemoteEmail.<br>
+                        |    |-m '<message>'     Mail to RemoteMath with the message.<br>
+                        |--clear                 Clear CLI screen.<br>
+                        |--help                  Show commandS list.<br>
+                </code>
+                <!-- example of commonly commands -->
+                <p>Example:</p>
+                <code>
+                    self --remote<br>
+                    output:<br>
+                    ->Ngr*k Public URL      :xxxxxxxxxxxxxxxxxx<br>
+                    ->C*deServer Password :xxxxxxxxxxxxxxxxxxxx<br><br>
+                    
+                    self --timer<br>
+                    output:<br>
+                    Timer<br>
+                    ==========================<br>
+                        Year    : 0<br>
+                        Month   : 0<br>
+                        Day     : 0<br>
+                        Hour    : 0<br>
+                        Minute  : 3<br>
+                        Second  : 45<br>
+                    ==========================<br>
+                </code>
+            </section>
+            <!-- QuickRemote settings -->
+            <section>
+                <h3>QuickRemote Settings:</h3>
+                <!-- JSON settings -->
                 <article>
+                    <p>
+                        Create a JSON file name <code>.settings.json</code> and complete your settings follows below term:<br>
+                    </p>
                     <code>
-                        [quick-remote]<br>
-                        |Usage: self [options] [sub-options]<br>
-                            |--remote                Start QuickRemote.<br>
-                            |--quit                  Turn off quick-remote.<br>
-                            |--timer                 Print current timer to CLI once.<br>
-                            |    |-refresh           Refresh timer to start status.<br>
-                            |    |-format '<format>' Change timer stdout format. tags: [@year, @month, @day, @hour, @minute, @second]<br>
-                            |    |                   Ex: 25-2-2000<br>
-                            |    |                       quick-remote --timer -format '@year/@month/@day'<br>
-                            |    |                     ->2000/2/25<br>
-                            |--mail                  Send mail remote to RemoteEmail.<br>
-                            |    |-m '<message>'     Mail to RemoteMath with the message.<br>
-                            |--clear                 Clear CLI screen.<br>
-                            |--help                  Show commandS list.
-                    </code>
-                    <p>Example:</p>
-                    <code>
-                        self --remote<br>
-                            ->Ngr*k Public URL      :xxxxxxxxxxxxxxxxxx<br>
-                            ->C*deServer Password :xxxxxxxxxxxxxxxxxxxx
+                        <em>{<br>
+                        "BotGmail": "example@gmail.com",<br>
+                        "BotGmailPassword": "example@123456",<br>
+                        "SuPassword": "Your_SudoPassword",<br>
+                        "RemoteEmail": "Your_Email_Which_Get_The_Message_From_Bot_Gmail@gmail.com",<br>
+                        "NgrokLaunchPath": "/ngrokDirectory/ngrok",<br>
+                        }</em>
+                    
                     </code>
                 </article>
+                <aside>
+                    <!-- precondition -->
+                    <h4>Precondition:</h4>
+                    <ol>
+                        <li>installed ngrok</li>
+                        <li>installed code-server</li>
+                        <li>corrected setting fields</li>
+                    </ol>
+                </aside>
             </section>
         </main>
         <!-- footer -->
         <footer>
-            <small><br><br>Contact: horrorplus0099@gmail.com</small>
+            <br><br>
+            <small>Contact: horrorplus0099@gmail.com</small>
         </footer>
     </body>
 </html>
