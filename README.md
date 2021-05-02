@@ -36,7 +36,7 @@
             <section id="diagram">
                <h2>Usecase Diagram</h2>
                <figure>
-                    <img src="https://github.com/tuazbao-heo/ImageHosting/blob/Master/QuickRemoteUseCase.jpg?raw=true" alt="quick remote usecase diagram" title="Quick remote usecase diagram" width="520" height="600">
+                    <img src="https://github.com/tuazbao-heo/ImageHosting/blob/ea5d4c6ef9994e67e94917b35b0771b8b794796f/08FF8362-C0C7-426B-8649-268881C093CD.jpeg?raw=true" alt="quick remote usecase diagram" title="Quick remote usecase diagram" width="520" height="600">
                </figure>
             </section>
             <!-- commands part -->
