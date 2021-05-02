@@ -14,7 +14,7 @@
                     <li><a href="#about-quick-remote" >About Quick Remote</a></li>
                     <li><a href="#usecase-diagram" >Usecase Diagram</a></li>
                     <li><a href="#commands" >Commands</a></li>
-                    <li><a href="#quickremote-settings">Settings</a></li>
+                    <li><a href="#quick-remote-settings">Settings</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,11 +24,10 @@
                 <h2>About Quick Remote</h2>
                 <article>
                     <p>
-                    Can launch the Program on Linux OS/ WSL only.<br>
-                    QuickRemote allows clients can launch Ngr*k and C*de-server at the same time, display Ngr*k public URL and C*deServer password, mail to remote Email...
-                    <aside>
-                        Now you can use your VS-Code in any internet browser as your internal machine.
-                    </aside>
+                        QuickRemote allows can using visual studio code remote from a public url.
+                        <aside>
+                            Now you can use your VS-Code in any internet browser as your internal machine.
+                        </aside>
                     </p>
                 </article>
             </section>
@@ -48,7 +47,7 @@
                     |Usage: self [options] [sub-options]<br>
                         |--remote                Start QuickRemote.<br>
                         |--quit                  Turn off quick-remote.<br>
-                        |--timer                 Print current timer to CLI once.<br>
+                        |--timer                 Print current timer to CLI (timer start when you start the quick-remote successful).<br>
                         |    |-refresh           Refresh timer to start status.<br>
                         |    |-format '<format>' Change timer stdout format. tags: [@year, @month, @day, @hour, @minute, @second]<br>
                         |    |                   Ex: 25-2-2000<br>
@@ -64,28 +63,23 @@
                 <p>
                     <code>self --remote</code><br>
                     output:<br>
-                    ->Ngr*k Public URL      :xxxxxxxxxxxxxxxxxx<br>
-                    ->C*deServer Password :xxxxxxxxxxxxxxxxxxxx<br><br>
+                    BOT_SUCCESSOR: PUBLIC_URL: http://example.quickremote.io<br>
+                    BOT_SUCCESSOR: PASSWORD__: 380f8f8b58741547ada080dc<br>
+                    BOT_SUCCESSOR: QuickRemote has been turning on!<br>
+                    BOT_SUCCESSOR: Successful!<br><br>
                     <code>self --timer</code><br>
                     output:<br>
-                    Timer<br>
-                    ==========================<br>
-                        Year    : 0<br>
-                        Month   : 0<br>
-                        Day     : 0<br>
-                        Hour    : 0<br>
-                        Minute  : 3<br>
-                        Second  : 45<br>
-                    ==========================<br>
+                    Timer: Hour:0 - Minute:5 - Second:15<br>
+                    BOT_SUCCESSOR: Successful!<br><br>
                 </p>
             </section>
             <!-- QuickRemote settings -->
             <section id="settings">
-                <h2>QuickRemote Settings</h2>
+                <h2>Quick Remote Settings</h2>
                 <!-- JSON settings -->
                 <article>
                     <p>
-                        Create a JSON file name <code>.settings.json</code> and complete your settings follow below term:<br>
+                        Create a JSON file name <code>.settings.json</code> and complete your settings follow the below termplate:<br>
                         <em>{<br>
                         "BotGmail": "example@gmail.com",<br>
                         "BotGmailPassword": "example@123456",<br>
@@ -99,9 +93,10 @@
                     <!-- precondition -->
                     <h3>Precondition:</h3>
                     <ol>
-                        <li>installed ngrok</li>
-                        <li>installed code-server</li>
-                        <li>corrected setting fields</li>
+                        <li>Run the program on Linux OS/ WSL only.</li>
+                        <li>Install code-server and ngrok on your machine.</li>
+                        <li>Authorized ngrok account.</li>
+                        <li>Installed ngrok web api.</li>
                     </ol>
                 </aside>
             </section>
