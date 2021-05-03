@@ -1,5 +1,4 @@
 ## Index:
-- [Index:](#index)
 - [About Quick Remote](#about-quick-remote)
 - [Usecase Diagram](#usecase-diagram)
 - [Commands](#commands)
@@ -41,7 +40,7 @@ output:
 
 ```
 BOT_SUCCESSOR: PUBLIC_URL: http://example.quickremote.io
-BOT_SUCCESSOR: PASSWORD\_\_: 380f8f8b58741547ada080dc
+BOT_SUCCESSOR: PASSWORD__: 380f8f8b58741547ada080dc
 BOT_SUCCESSOR: QuickRemote has been turning on!
 BOT_SUCCESSOR: Successful!
 ```
