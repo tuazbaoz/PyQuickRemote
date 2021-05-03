@@ -1,3 +1,4 @@
+## Index:
 - [Index:](#index)
 - [About Quick Remote](#about-quick-remote)
 - [Usecase Diagram](#usecase-diagram)
@@ -5,9 +6,6 @@
 - [Quick Remote Settings](#quick-remote-settings)
   - [Precondition:](#precondition)
     - [Contact: horrorplus0099@gmail.com](#contact-horrorplus0099gmailcom)
-
-## Index:
-
 ## About Quick Remote
 
 QuickRemote allows can using visual studio code remote from a public url.
